@@ -1,11 +1,5 @@
-.c1 {
-    background: gray
-}
+.bg-purple {
+--bs-bg-opacity: 1;
+background-color: rgba(128, 0, 128, var (--bs-bg-opacity)) !important;
 
-.c2 {
-    background: green
-}
-
-.c3 {
-    background: yellow
 }

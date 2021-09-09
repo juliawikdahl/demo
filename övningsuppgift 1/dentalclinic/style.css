@@ -1,0 +1,48 @@
+.navbar-top-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+    
+
+}
+.border {
+border: 1px solid;
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+.navbar-top {
+    padding: 0.6rem 0;
+   
+}
+.fa-clock, .sociala-medier {
+    color: lightblue
+}
+.text{
+    margin-right: 45%;
+}
+.fa-tooth {
+    
+}
+.nav-item {
+    margin-left:%;
+}
+
+.fa-child {
+    font-size: 400px;
+}
+.sektion-3 {
+    background-color: gray;
+
+}
+.knapp {
+    color: green;
+    ;
+    margin-left: 70%;
+}

@@ -135,7 +135,94 @@ margin-right: 0.8rem
     font-size: 18px;
     margin: 45px 0px;
 }
+#showcase2 {
+    display: flex;
+    max-height: 814px;
+    align-items: center;
+    
+}
+#showcase2 .f1 {
+    flex: 1;
+    text-align: start;
 
+}
+    
+
+#showcase2 h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+ 
+  
+}
+#showcase2 p {
+    font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   margin:45px 0px;
+  
+
+
+}
+
+#showcase2 img {
+    padding-top: 90px;
+    
+
+}
+#tooth-buttons {
+    display: grid;
+    grid-template-columns:repeat(3, 450px);
+    grid-template-rows: repeat(2,436px);
+    grid-gap:30px;
+    
+
+}
+
+.border {
+    color: #707070;
+}
+.box1 {
+    text-align: center;
+    padding-top: 127px;
+    padding-bottom: 248px;
+}
+.box2 {
+    text-align: center;
+    padding-top: 127px;
+    padding-bottom: 248px;
+    
+}
+.box3 {
+    text-align: center;
+    padding-top: 127px;
+    padding-bottom: 248px;
+}
+.box4 {
+    text-align: center;
+    padding-top: 127px;
+}
+.box5 {
+    text-align: center;
+    padding-top: 127px;
+}
+.box6 {
+    text-align: center;
+    padding-top: 127px;
+}
+.rubrik {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    color: #363636;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.under-rubrik {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #626262;
+    
+
+
+}
 @media (min-width: 768px) {
 #showcase h1 {
     font-size: 3.75rem;

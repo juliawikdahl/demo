@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
-{
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;
-}
+
 
 .btn {
         padding: 18px 56px;
@@ -151,30 +148,30 @@ margin-right: 0.8rem
 #showcase2 h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 40px;
- 
+    margin-right: 210px;
+   border-bottom: 5px solid #25E6C8;
+   
+   
   
 }
 #showcase2 p {
     font-family: 'Roboto', sans-serif;
    font-size: 18px;
    margin:45px 0px;
-  
-
 
 }
 
 #showcase2 img {
     padding-top: 90px;
-    
-
 }
-#tooth-buttons {
-    display: grid;
-    grid-template-columns:repeat(3, 450px);
-    grid-template-rows: repeat(2,436px);
-    grid-gap:30px;
-    
 
+#tooth-buttons {
+  
+   display: grid;
+   grid-template-columns: repeat(3,450px);
+   grid-template-rows: repeat(2, 436px);
+   gap: 30px;
+  
 }
 
 .border {
@@ -185,29 +182,7 @@ margin-right: 0.8rem
     padding-top: 127px;
     padding-bottom: 248px;
 }
-.box2 {
-    text-align: center;
-    padding-top: 127px;
-    padding-bottom: 248px;
-    
-}
-.box3 {
-    text-align: center;
-    padding-top: 127px;
-    padding-bottom: 248px;
-}
-.box4 {
-    text-align: center;
-    padding-top: 127px;
-}
-.box5 {
-    text-align: center;
-    padding-top: 127px;
-}
-.box6 {
-    text-align: center;
-    padding-top: 127px;
-}
+
 .rubrik {
     font-family: 'Roboto Slab', serif;
     font-size: 22px;

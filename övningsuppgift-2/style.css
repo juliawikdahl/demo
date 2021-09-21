@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.bakgrund {
+    position: absolute;
+    top: -800px;
+    left: -200px;
+    z-index: -1;
+}
+.container {
+    position: relative;
+}
+
 .container {
     width: 1900px;
 }
@@ -106,6 +117,10 @@
     top: -220px;
 }
 
+.a2 {
+    margin-left: -200px;
+    margin-top: -150px;
+}
 .about-us {
     font-family: 'Roboto', sans-serif;
     padding-left: 15px;
@@ -122,9 +137,165 @@
 .rubrik {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 .under-rubrik {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    margin-bottom: 40px;
 }
 
+.google-play {
+    padding-left: 75px;
+    padding-right: 35px;
+}
+.fa-google-play {
+ 
+    font-size: 30px;
+
+}
+
+.first {
+    font-family: 'Roboto', sans-serif;
+ 
+    font-size: 12px;
+    color: #6B6B6B;
+}
+.second {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+ 
+}
+
+.apple {
+    padding-left: 75px;
+    padding-right: 35px;
+    margin-left: 20px;
+}
+.fa-apple {
+       
+        font-size: 40px;
+    
+    }
+.firsta {
+        font-family: 'Roboto', sans-serif;
+       
+        font-size: 12px;
+        color: #6B6B6B;
+        
+}
+.seconda {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+  
+}
+
+/* SHOWCASE 3 */
+
+.features {
+
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #f7e4ba7c;
+    color: #FFBB00;
+    font-size: 14px;
+
+}
+.rubrik2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 200px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.underrubrik2 {
+    margin-bottom: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8A8A8A;
+    margin-right: 200px;
+}
+.boxar {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 90px 90px;
+    gap: 50px;
+}
+
+.phone-background {
+    position: relative;
+    top: 650px;
+    left: 100px;
+}
+
+.iphone-1 {
+    position: relative;
+    left: -10px;
+    top: 140px;
+    transform: rotate(-deg);
+
+}
+
+.iphone-2 {
+position: relative;
+top: -480px;
+left: 240px;
+}
+
+.showcase-3 {
+    margin-top: -550px;
+}
+
+/* SHOWCASE 4 */
+.huvud {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+
+}
+
+.nacke {
+    font-family: 'Roboto', sans-serif;
+    color:#8A8A8A;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.sektion-1 {
+    text-align: center;
+    margin-top: -200px;
+}
+.sektion-2 {
+  margin-bottom: 300px;
+}
+
+.sektion2 {
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    grid-template-rows: 0px;
+    gap: 140px;
+    text-align: end;
+    margin-right: -50px;
+}
+
+.siffror1 {
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: bold;
+color: #3096FE;
+}
+
+.texten1 {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}

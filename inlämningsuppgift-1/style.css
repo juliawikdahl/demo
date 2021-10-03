@@ -45,8 +45,8 @@ p {
 .bakgrund {
     position: absolute;
     z-index: -2;
-    top: -5px;
-    left: 30px;
+    top: 0;
+    left: 0;
     
 }
 #navbar  .container {
